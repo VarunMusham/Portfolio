@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="jumbotron text-center">
+    <div class="container">
+      <h1 class="display-4">Hi There 👋</h1>
+    </div>
+  </section>
+
+  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">About Me</h2>
+      <p class="text-center">Hello, I'm Varun, a sophomore majoring in Electrical and Computer Engineering at Shiv Nadar University,Noida.</p>
+      <h3 class="text-center pt-3">Education</h3>
+      <table class="table table-striped my-3">
+        <thead>
+          <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Year</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>B.Tech in Electrical and Computer Engineering</td>
+            <td>Shiv Nadar University</td>
+            <td>2022-2026</td>
+            <td>CGPA: 8.41</td>
+          </tr>
+          <tr>
+            <td>Intermediate/12th</td>
+            <td>Board of Intermediate Education, Telangana</td>
+            <td>2022</td>
+            <td>Percentage: 92%</td>
+          </tr>
+          <tr>
+            <td>Secondary School/10th</td>
+            <td>Board of Secondary Education, Telangana</td>
+            <td>2020</td>
+            <td>CGPA: 10.0</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="text-center pt-3">Areas of Interest</h3>
+      <ul class="text-center pt-2" style="list-style-type: none;">
+        <li>Web Development</li>
+        <li>Machine Learning</li>
+        <li>Embedded Systems</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center">My Portfolio</h2>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-4">
+            <img src="./images/kmap-solver.png" class="card-img-top" alt="Project 1" height="500">
+            <div class="card-body">
+              <h3 class="card-title">Karnaugh Map Solver</h3>
+              <p class="card-text">A code written in python to solve boolean expressions using Karnaugh Map. <br>View Full Project Here👇 <br> <a href="https://github.com/VarunMusham/Karnaugh-Map-Solver">Karnaugh-Map-Solver</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-4">
+            <img src="./images/Tic-Tac-Toe.png" class="card-img-top" alt="Project 2" height="500">
+            <div class="card-body">
+              <h3 class="card-title">Tic Tac Toe</h3>
+              <p class="card-text">A 2 player Tic Tac Toe game written in python. <br>View Full Project Here👇 <br><a href="https://github.com/VarunMusham/Tic-Tac-Toe">Tic-Tac-Toe</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-3">Contact Me:</h2>
+      <h3> Instagram: <a href="https://www.instagram.com/varun_musham_50/">varun_musham_50</a></h3>
+      <h3> E-Mail: <a href="">mushamvarun130@gmail.com</a></h3>
+      <h3>GitHub: <a href="https://github.com/VarunMusham">VarunMusham</a></h3>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
