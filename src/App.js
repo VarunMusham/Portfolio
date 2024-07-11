@@ -40,10 +40,7 @@ function App() {
           <Route path="/about" element={<About />} />
           {/* <Route path="/resume" element={<Resume />} /> */}
           <Route path="*" element={<Navigate to="/"/>} />
-          <Route path="/smart-prep" component={() => {
-          window.location.href = 'https://smartprep.vercel.app/';
-          return null;
-        }} />
+
         </Routes>
         <Footer />
       </div>
