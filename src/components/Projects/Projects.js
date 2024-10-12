@@ -28,7 +28,7 @@ function Projects() {
               title="SmartPrep"
               description="The SmartPrep is a MCQ Practice App is designed to help students prepare for their exams. This web-based platform provides a self-assessment test of multiple-choice questions (MCQs), allowing students to practice and assess their knowledge effectively."
               ghLink="https://github.com/VarunMusham/SmartPrep"
-              // demoLink="https://chatify-49.web.app/"
+              demoLink="https://smart-prep-v2.vercel.app/"
             />
           </Col>
 
