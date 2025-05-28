@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Varun Musham </span>
             from <span className="purple"> Hyderabad, India.</span>
             <br />
-            I am currently a Junior at Shiv Nadar University, Delhi-NCR pursuing B.Tech in Electrical and Computer Engineering.
+            I am currently a Senior at Shiv Nadar University, Delhi-NCR pursuing B.Tech in Electrical and Computer Engineering.
             <br />
             <br />
             <br />
