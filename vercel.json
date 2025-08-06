@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/smart-prep",
+      "destination": "https://smartprep.vercel.app",
+      "permanent": true
+    }
+  ]
+}
